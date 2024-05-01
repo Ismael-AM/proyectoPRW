@@ -1,0 +1,528 @@
+@import url('https://fonts.cdnfonts.com/css/f-farek');
+@import url('https://fonts.cdnfonts.com/css/sounds-eroded');
+
+#home {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgb(0, 0, 0, 0.9) ), url('../img/backg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    align-content: center;
+}
+
+.dropdown-toggle:hover{
+    color: white;
+    text-shadow: red;
+}
+
+body{
+    position: static;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.tituloInicio{
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'f Farek', sans-serif;
+    font-weight: bolder;
+    margin-bottom: -2vh;
+    color: red
+}
+
+.subtituloInicio{
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'f Farek', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+.mensajeInicio{
+    text-align: center;
+    font-size: 1.5vh;
+    font-family: 'f Farek', sans-serif;
+    color: white;
+}
+
+.dropdown{
+    color: white;
+    background-color: rgb(15, 15, 15);
+}
+
+.dropdown-menu{
+    color: white;
+    background-color: rgb(15, 15, 15);
+}
+
+.dropdown-item{
+    color: white;
+}
+
+#banner, #bannerInicio{
+    background-color: rgb(15, 15, 15);
+    z-index: 100;
+    width: 100%;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#logout:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+.nav-item .nav-link{
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item .nav-link.active{
+    color: white;
+    opacity: 1;
+}
+
+
+.navbar-brand {
+    font-family: 'f Farek', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+    color: white;
+    opacity: 1;
+}
+
+label{
+    font-weight: bold;
+}
+
+.form-group .input-group .show-hide{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    z-index: 5;
+}
+
+.form-group .input-group{
+    position: relative;
+}
+
+.form-group .input-group input{
+   background: transparent;
+}
+
+.avisoMatch, .avisoSecurity{
+    display: none;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.mensajeMatch, .mensajeSecurity{
+    display: flex;
+    top: 50%;
+    margin-bottom: 5px;
+    position: absolute;
+}
+
+.mensajeMatch{
+    color:red;
+}
+
+.error-icon {
+    font-size: small;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.avisoMatch.active, .avisoSecurity.active{
+    display: block;
+}
+
+.fa-user{
+    margin-right: 5px;
+}
+
+.fa-exchange, .fa-user-circle, .fa-sign-out-alt, .fa-shopping-bag{
+    margin-right: 10px;
+}
+
+.fa-shopping-cart{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+#botonGoogle, #botonRegistro{
+    font-weight:600;
+}
+
+#miCuenta{
+    color: white;
+}
+
+#miCuenta:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+#botonGoogle:hover{
+    background:linear-gradient(-90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #333;
+}
+
+.mensajeLog {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.mensajeReg{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 15px;
+    color: #333;
+}
+
+.footer{
+    position: static;
+    bottom:0;
+    left: 0;
+    width: 100vw;
+}
+
+#carrito th {
+    font-size: large;
+    font-weight: bolder;
+}
+
+#carrito td{
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#sectionProductos {
+    padding: 5vh 0vh 10vh;
+}
+
+#sectionProductos .header {
+    margin-bottom: 5vh;
+}
+
+#sectionProductos .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+#sectionProductos .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+#sectionProductos .producto {
+    background-repeat: no-repeat; 
+    background-position: 0.75vw; 
+    background-size: 90%;
+    margin-bottom: 26px;
+}
+#sectionProductos .producto .parteSup {
+    position: relative;
+    height: 290px;
+    max-width: 100%;
+    max-height: 290px;
+    margin-bottom: 20px;
+}
+
+#sectionProductos .producto .parteSup .descuento,
+#sectionProductos .producto .parteSup .nuevo {
+    position: absolute;
+    top: 5vh;
+    left: 1vh;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.descuento{
+    color: #ffffff;
+    background-color: #fe302f;
+    text-transform: uppercase;
+    font-weight: 850;
+    font-size: 0.85rem;
+}
+
+#sectionProductos .producto .parteSup .nuevo {
+    background-color: #444444;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 750;
+    font-size: 0.85rem;
+}
+
+.nombreProducto {
+    color: black;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#sectionProductos .producto .parteInf h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+#sectionProductos .producto .parteInf .pvp {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+#sectionProductos .producto .parteInf .pvp::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+
+.btnGoogle {
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 1px #ddd;
+    background: linear-gradient(270deg, #166fff 30%, #2b9247 45%, #ffbf00 60%, #ea4335 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.btnForm{
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 1px #ddd;
+}
+
+.btnGoogle, .btnForm {
+    font-weight: 600;
+}
+
+.gallery-wrap .img-big-wrap img {
+    height: 450px;
+    width: auto;
+    display: inline-block;
+    cursor: zoom-in;
+}
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    margin: 7px 2px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery-wrap .img-small-wrap {
+    text-align: center;
+}
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.tituloProducto{
+    font-family: 'f Farek', sans-serif;
+    font-size: 1.5rem;
+}
+
+#btnAñadir{
+    font-weight: 600;
+}
+
+.btnEliminar:hover{
+    background-color: red;
+    color:white;
+}
+
+.navbar-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    #sectionProductos .producto {
+        background-position: 15vw -2vh;
+        background-size: 75%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    #sectionProductos .producto {
+        background-position: 15vw 0vh;
+        background-size: 75%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #sectionProductos .producto {
+        background-position: 15vw -1vh;
+        background-size: 75%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #sectionProductos .producto {
+        background-position: 15vw 8vh;
+        background-size: 75%;
+    }
+}
+
+.card-img-container {
+    height: 250px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1279px) {
+    .col-3 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .col-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 640px) {
+    .col-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card-img-container {
+        min-height: 40vh;
+        overflow: hidden;
+    }
+
+    .card-img-container2 {
+        min-height: 40vh;
+        overflow: hidden;
+    }
+}
+
+.bambas{
+    font-family: 'f Farek', sans-serif;
+    font-size: 5rem;
+}
+
+.novedades{
+    font-family: 'f Farek', sans-serif;
+    font-size: 3rem;
+}
+
+.shoe-info {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.shoe-info h2 {
+  font-size: 2rem;
+}
+
+.shoe-info p {
+  font-size: 1.1rem;
+}
+
+#inputBusqueda::placeholder {
+    color: white;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50%;
+    height: 10px;
+    background: rgb(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 5vh;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    border-radius: 50%;
+}
